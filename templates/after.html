@@ -1,0 +1,53 @@
+<html>
+
+<body bgcolor=#d3d3d3>
+
+    <center>
+
+        <h1>  당신이 입력한 물고기는 뭘까요?   </h1>
+    
+    {%if data == 0%}
+    <b>당신이 입력한 물고기는 아마도 bream 인 것 같군요</b>  
+    <br><br>
+    <img src='static\bream.jpeg'>  
+
+    {%elif data ==1%}
+    <b>당신이 입력한 물고기는 아마도 Parkki 인 것 같군요</b>
+    <br><br>
+    <img src='static\pakki.jpeg'>
+    
+    {%elif data ==2%}
+    <b>당신이 입력한 물고기는 아마도 Perch 인 것 같군요</b>
+    <br><br>
+    <img src='static\perch.jpeg'>
+    
+    {%elif data ==3%}
+    <b>당신이 입력한 물고기는 아마도 Pike 인 것 같군요</b>
+    <br><br>
+    <img src='static\pike.jpeg'>
+
+    {%elif data ==4%}
+    <b>당신이 입력한 물고기는 아마도 Roach 인 것 같군요</b>
+    <br><br>
+    <img src='static\roach.jpeg'>
+
+    {%elif data ==5%}
+    <b>당신이 입력한 물고기는 아마도 Smelt 인 것 같군요</b>
+    <br><br>
+    <img src='static\smelt.jpeg'>
+    
+    {%elif data ==6%}
+    <b>당신이 입력한 물고기는 아마도 Whitefish 인 것 같군요</b>
+    <br><br>
+    <img src='static\whitefish.jpeg'>
+    {%endif%}
+    
+
+        <br><br>
+    <a href='/'>다시 예측해보기</a>
+
+    </center>
+
+</body>
+
+</html>

@@ -1,0 +1,21 @@
+<html>
+    <body bgcolor=#d3d3d3>
+
+        <center>
+
+        <h1> 물고기 종류 예측하기 </h1><br>
+        
+        <form method="POST", action="{{url_for('home')}}">
+           <b> 무게(weight) :  <input type="text", name='a', placeholder="입력하세요"> <br><br>
+            길이(length) :  <input type="text", name='b', placeholder="입력하세요"> <br><br>
+            키(height) :  <input type="text", name='c', placeholder="입력하세요"> <br><br>
+            넓이(width) : <input type="text", name='d', placeholder="입력하세요"> <br><br><br></b>
+            <input type="submit" , value='예측하기' >
+        </form>
+
+        <img src='static\fish.jpeg' >
+        
+    </center>
+
+    </body>
+</html>
